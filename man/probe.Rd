@@ -28,14 +28,14 @@ probe(x, this, FUN = "max", that = this, scope = NULL, ...)
 
 }
 \value{
-	A vector of values of same length and mode as \code{that}.
+ A vector of values of same length and mode as \code{that}.
 }
 
 \seealso{
 \code{\link{scope}},
 \code{\link{score}},
 \code{\link{skim}},
-\code{\link{scoop}},
+\code{\link{scoop}}
 }
 \examples{
 data(Theoph)
@@ -43,5 +43,5 @@ data(Theoph)
 S <- scope(Theoph,'Subject')
 T <- probe(Theoph,'conc',that='Time',scope=S)
 }
-\keyword{manip}% at least one, from doc/KEYWORDS
+\keyword{manip}
 

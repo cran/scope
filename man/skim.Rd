@@ -18,7 +18,7 @@ skim(x, this, FUN = "max", scope = NULL, ...)
 \details{
  The default scope is all rows.  The default function is \code{max}.  
  Remember that \code{skim()} returns a data vector, not a scope object.  For 
- functions that return one of their arguments (perhaps \code{max} and \code{min} but perhaps
+ functions that return one of their arguments (perhaps \code{max} and \code{min} but perhaps 
  not \code{mean}) the result of \code{skim()} can be passed back to \code{scope()} to \sQuote{probe} for 
  the row from which the value originated.  There is a danger that more or fewer 
  than one row will be detected, so check with \code{score()}.
@@ -32,7 +32,7 @@ skim(x, this, FUN = "max", scope = NULL, ...)
 \code{\link{scope}},
 \code{\link{score}},
 \code{\link{scoop}},
-\code{\link{probe}},
+\code{\link{probe}}
 }
 \examples{
 data(Theoph)

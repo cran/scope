@@ -5,7 +5,7 @@
  Data Manipulation Using Arbitrary Row and Column Criteria
 }
 \description{
-Calculate, per data frame row, a value that depends on information in a 
+ Calculate, per data frame row, a value that depends on information in a 
  relevant subset of rows and columns.  These functions create and refine
  scope objects, which identify relevant rows on a per-row basis. Columns 
  can be aggregated within relevant scopes to aid identification of a row 
@@ -15,8 +15,8 @@ Calculate, per data frame row, a value that depends on information in a
 \tabular{ll}{
 Package: \tab scope\cr
 Type: \tab Package\cr
-Version: \tab 1.0-1\cr
-Date: \tab 2006-04-11\cr
+Version: \tab 1.0-2\cr
+Date: \tab 2006-04-17\cr
 License: \tab GPL version 2 or newer\cr
 }
  Given a data frame of length n, \code{scope()} creates a list of length n, each element of 

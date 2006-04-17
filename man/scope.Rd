@@ -34,10 +34,10 @@ scope(x, this, FUN = "==", that = x[[this]], scope = NULL)
   A list of vectors, one per row in \code{x}, of relevant row names in \code{x}.
 }
 \seealso{ 
-\code{\link{score}}, 
-\code{\link{skim}}, 
-\code{\link{scoop}}, 
-\code{\link{probe}}, 
+\code{\link{score}},
+\code{\link{skim}},
+\code{\link{scoop}},
+\code{\link{probe}}
 }
 \examples{
 data(Theoph)
@@ -48,5 +48,5 @@ S <- scope(Theoph,'Subject')
 #For each row within Subject, consider only those rows having non-zero times.
 S2 <- scope(Theoph,'Time','>',0,scope=S)
 }
-\keyword{manip}% at least one, from doc/KEYWORDS
+\keyword{manip}
 

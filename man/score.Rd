@@ -24,7 +24,7 @@ score(scope)
 \code{\link{scope}},
 \code{\link{skim}},
 \code{\link{scoop}},
-\code{\link{probe}},
+\code{\link{probe}}
 
 }
 \examples{

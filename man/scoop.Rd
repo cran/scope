@@ -19,10 +19,10 @@ scoop(x, this, scope = NULL)
  A vector of same length as the data frame columns, and same mode as \code{this}.
 }
 \seealso{
-\code{\link{scope}}, 
-\code{\link{score}}, 
-\code{\link{skim}}, 
-\code{\link{probe}}, 
+\code{\link{scope}},
+\code{\link{score}},
+\code{\link{skim}},
+\code{\link{probe}},
 }
 \examples{
 data(Theoph)

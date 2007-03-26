@@ -16,7 +16,7 @@ skim(x, this, FUN = "max", scope = NULL, ...)
   \item{\dots}{Extra arguments to pass to \code{FUN}.}
 }
 \details{
- The default scope is all rows.  The default function is \code{max}.  
+ The default scope is all rows.  The default function is \code{max(...)}.  
  Remember that \code{skim()} returns a data vector, not a scope object.  For 
  functions that return one of their arguments (perhaps \code{max} and \code{min} but perhaps 
  not \code{mean}) the result of \code{skim()} can be passed back to \code{scope()} to \sQuote{probe} for 

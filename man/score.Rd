@@ -6,15 +6,17 @@
  are \sQuote{in scope}: i.e. the lengths of the per-row vectors. 
 }
 \usage{
-score(scope)
+score(scope, ...)
 }
 \arguments{
   \item{scope}{A scope object, e.g. created by \code{scope()}.}
+  \item{...}{extra arguments, currently unused.}
 }
 \details{
   This is a useful analytical tool, e.g., for checking whether previous calls 
   to \code{scope()} have limited per-row scopes to exactly one row name (a 
-  condition expected by \code{scoop()}).
+  condition expected by \code{scoop()}).  At present, \code{score()} merely calls
+  \code{sapply()} and assigns names to the result.
 }
 \value{
   A vector of integers, representing numbers of row names per element in a scope object.

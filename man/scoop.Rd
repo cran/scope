@@ -8,12 +8,13 @@
  not specified, the specified column is returned.
 }
 \usage{
-scoop(x, this, scope = NULL)
+scoop(x, this, scope = NULL, ...)
 }
 \arguments{
   \item{x}{A data frame.}
   \item{this}{A column name in \code{x}, from which values are taken.}
   \item{scope}{A scope object, ideally all elements atomic.}
+  \item{...}{extra arguments, currently unused.}
 }
 \value{
  A vector of same length as the data frame columns, and same mode as \code{this}.
